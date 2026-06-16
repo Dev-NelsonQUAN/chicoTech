@@ -18,7 +18,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   const openWhatsApp = () => {
-    window.open("https://wa.me/2349022072067", "_blank");
+    window.open("https://wa.me/234706500113", "_blank");
   };
 
   return (
@@ -35,7 +35,7 @@ export function Footer() {
             </Link>
             <p className="text-sm text-slate-500 leading-relaxed font-medium">
               Providing high-precision steel fabrication and industrial
-              engineering solutions across Africa and beyond since 2004.
+              engineering solutions across Africa and beyond since 2015.
             </p>
             <div className="flex gap-3">
               {[Linkedin, Facebook, Twitter].map((Icon, i) => (
@@ -105,26 +105,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* 3. PROJECT SPOTLIGHT (Replaces the messy grid) */}
-          {/* <div className="lg:col-span-1">
-            <h4 className="font-bold text-xs uppercase tracking-[0.2em] text-slate-400 mb-8">Project Spotlight</h4>
-            <div className="group relative rounded-2xl overflow-hidden aspect-video bg-slate-200 border border-slate-200 shadow-md">
-              <Image 
-                src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=400&auto=format&fit=crop" 
-                alt="Latest Project" 
-                fill 
-                className="object-cover group-hover:scale-105 transition-transform duration-700" 
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent flex flex-col justify-end p-4">
-                <span className="text-[9px] font-black text-red-400 uppercase tracking-widest">Ongoing Project</span>
-                <p className="text-white text-xs font-bold">Industrial Steel Framework - Lagos Phase II</p>
-              </div>
-            </div>
-            <Link href="#portfolio" className="inline-flex items-center gap-2 mt-4 text-xs font-bold text-red-600 hover:gap-3 transition-all">
-              View Full Portfolio <ArrowRight size={14} />
-            </Link>
-          </div> */}
-
           <div>
             <h4 className="font-bold text-xs uppercase tracking-[0.2em] text-slate-400 mb-8">
               Connect
@@ -139,7 +119,7 @@ export function Footer() {
                     Regional Office
                   </p>
                   <p className="text-slate-500 leading-relaxed font-medium">
-                    Block A, Industrial Estate,
+                    39A, Emordi Street, Olodi-Apapa,
                     <br />
                     Lagos, Nigeria
                   </p>
@@ -158,10 +138,10 @@ export function Footer() {
                     onClick={openWhatsApp}
                     className="text-slate-500 font-medium hover:text-red-600 transition-colors"
                   >
-                    +234 902 207 2067
+                    +234 706 500 1134
                   </button>
                   <p className="text-slate-400 font-medium mt-1">
-                    info@chicotechnical.com
+                    chicotechnicalworks@yahoo.com
                   </p>
                 </div>
               </div>

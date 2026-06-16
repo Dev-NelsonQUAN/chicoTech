@@ -47,16 +47,16 @@ export function Hero() {
             <p className="text-xs md:text-lg text-slate-600 max-w-xl leading-relaxed flex flex-col items-center lg:items-start text-center lg:text-left">
               From fabrication to installation, we deliver world-class steel and
               industrial engineering services with precision and expertise.
-              <span className="block mt-2 font-medium text-slate-400 text-sm italic">
+              <span className="block mt-2 font-medium text-slate-400 text-[10px] md:text-sm italic">
                 Fabrication • Erection • Conveyors • Elevators • Blow Lines
               </span>
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start max-sm:px-4">
             <button
               onClick={openWhatsApp}
-              className="px-8 py-4 bg-slate-900 text-white rounded-2xl hover:bg-red-600 transition-all duration-300 font-bold flex items-center justify-center gap-2 group shadow-lg shadow-slate-200 cursor-pointer"
+              className="px-4 md:px-8 py-2 md:py-4 bg-slate-900 text-white rounded-2xl hover:bg-red-600 transition-all duration-300 font-bold flex items-center justify-center gap-2 group shadow-lg shadow-slate-200 cursor-pointer"
             >
               Start Your Project
               <ArrowRight
@@ -67,29 +67,29 @@ export function Hero() {
 
             <button
               onClick={openEmail}
-              className="px-8 py-4 bg-white text-slate-900 border border-slate-200 rounded-2xl hover:bg-slate-50 transition-all duration-200 font-bold flex items-center justify-center gap-2 shadow-sm cursor-pointer"
+              className="px-4 md:px-8 py-2 md:py-4 bg-white text-slate-900 border border-slate-200 rounded-2xl hover:bg-slate-50 transition-all duration-200 font-bold flex items-center justify-center gap-2 shadow-sm cursor-pointer"
             >
               <Mail size={20} />
               Email Us
             </button>
           </div>
 
-          <div className="flex flex-wrap gap-10 pt-6 border-t border-slate-200/60 flex-col sm:flex-row justify-center lg:justify-start">
+          <div className="flex flex-wrap gap-10 pt-6 border-t border-slate-200/60 flex-col sm:flex-row max-sm:items-center justify-center lg:justify-start">
             <div>
-              <div className="text-3xl font-black text-slate-900">500+</div>
-              <div className="text-xs font-bold text-slate-400 uppercase tracking-tighter">
+              <div className="text-2xl md:text-3xl font-black text-slate-900">500+</div>
+              <div className="text-[10px] md:text-xs font-bold text-slate-400 uppercase tracking-tighter">
                 Projects Done
               </div>
             </div>
             <div>
-              <div className="text-3xl font-black text-slate-900">20+</div>
-              <div className="text-xs font-bold text-slate-400 uppercase tracking-tighter">
+              <div className="text-2xl md:text-3xl font-black text-slate-900">11+</div>
+              <div className="text-[10px] md:text-xs font-bold text-slate-400 uppercase tracking-tighter">
                 Years Exp
               </div>
             </div>
             <div>
-              <div className="text-3xl font-black text-slate-900">99%</div>
-              <div className="text-xs font-bold text-slate-400 uppercase tracking-tighter">
+              <div className="text-2xl md:text-3xl font-black text-slate-900">99%</div>
+              <div className="text-[10px] md:text-xs font-bold text-slate-400 uppercase tracking-tighter">
                 Satisfaction
               </div>
             </div>

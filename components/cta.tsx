@@ -3,8 +3,8 @@
 import { ArrowRight, Mail, MessageCircle, Phone } from 'lucide-react'
 
 export function CTA() {
-  const whatsappNumber = "+2349022072067";
-  const emailAddress = "info@chicotechnical.com";
+  const whatsappNumber = "+234 706 500 1134";
+  const emailAddress = "chicotechnicalworks@yahoo.com";
 
   const openWhatsApp = () => {
     window.open(`https://wa.me/${whatsappNumber.replace('+', '')}`, "_blank");
@@ -48,7 +48,7 @@ export function CTA() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button 
                 onClick={openWhatsApp}
-                className="w-full sm:w-auto px-10 py-4 bg-slate-900 text-white rounded-2xl hover:bg-red-600 transition-all duration-300 font-bold flex items-center justify-center gap-2 group shadow-xl shadow-slate-200"
+                className="w-full sm:w-auto px-10 py-4 bg-slate-900 text-white rounded-2xl hover:bg-red-600 transition-all duration-300 font-bold flex items-center justify-center gap-2 group shadow-xl shadow-slate-200 cursor-pointer hover:scale-105 hover:ease-in-out"
               >
                 Contact via WhatsApp
                 <MessageCircle size={20} className="group-hover:scale-110 transition-transform" />
@@ -56,7 +56,7 @@ export function CTA() {
               
               <button 
                 onClick={openEmail}
-                className="w-full sm:w-auto px-10 py-4 bg-white text-slate-900 border border-slate-200 rounded-2xl hover:bg-slate-50 transition-all duration-200 font-bold flex items-center justify-center gap-2 shadow-sm"
+                className="w-full sm:w-auto px-10 py-4 bg-white text-slate-900 border border-slate-200 rounded-2xl hover:bg-slate-50 transition-all duration-200 font-bold flex items-center justify-center gap-2 shadow-sm cursor-pointer hover:scale-105 hover:ease-in-out"
               >
                 <Mail size={20} />
                 Get a Quote

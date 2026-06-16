@@ -34,7 +34,7 @@ export function Header() {
           
           <Link href="/" className="flex items-center gap-3">
           <img src="/logo.png" alt="Chico Tech Logo" 
-          className='h-13 md:h-15 w-12 md:w-15'/>
+          className='h-7 md:h-15 w-7 md:w-15'/>
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
@@ -74,7 +74,7 @@ export function Header() {
               </Link>
             ))}
             <Link 
-              href="tel:+2349022072067" 
+              href="tel:++234 706 500 1134" 
               className="w-full text-center py-4 bg-slate-900 text-white rounded-2xl font-bold uppercase tracking-widest text-xs"
             >
               Call Us Now
