@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://chicotechnical.com'), 
+  metadataBase: new URL('https://chico-tech.vercel.app'), 
   title: {
     default: 'CHICO Technical Works | Steel Fabrication & Industrial Engineering Nigeria',
     template: '%s | CHICO Technical Works'
@@ -35,22 +35,14 @@ export const metadata: Metadata = {
 
   authors: [{ name: 'CHICO Technical Works' }],
   icons: {
-    icon: '/logo.png', 
-    apple: '/logo.png',
+    icon: '/chicotech.jpg', 
+    apple: '/chicotech.jpg',
   },
   openGraph: {
     title: 'CHICO Technical Works | Precision Steel Solutions',
-    description: 'Expert industrial engineering and steel fabrication services since 2004.',
+    description: 'Expert industrial engineering and steel fabrication services since 2015.',
     url: 'https://chico-tech.vercel.app',
     siteName: 'CHICO Technical Works',
-    images: [
-      {
-        url: '/opengraph-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'CHICO Technical Works Logo',
-      },
-    ],
     locale: 'en_NG',
     type: 'website',
   },
@@ -58,7 +50,6 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'CHICO Technical Works | Steel Solutions',
     description: 'Premier industrial engineering in West Africa.',
-    images: ['/opengraph-image.png'],
   },
 }
 
