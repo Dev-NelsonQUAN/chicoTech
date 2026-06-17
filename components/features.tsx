@@ -23,7 +23,7 @@ export function Features() {
   }
 
   return (
-    <section className="relative py-24 px-4 sm:px-6 lg:px-8 bg-[#f8fafc] overflow-hidden">
+    <section className="relative py-24 px-6 lg:px-8 bg-[#f8fafc] overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-24 -left-24 w-96 h-96 bg-blue-100 rounded-full blur-[100px] opacity-60"></div>
         <div className="absolute top-1/2 right-0 w-125 h-125 bg-red-50 rounded-full blur-[120px] opacity-50"></div>
@@ -41,14 +41,14 @@ export function Features() {
                 </span>
               </div>
               
-              <h2 className="text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.1]">
+              <h2 className="text-3xl md:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.1]">
                 Engineering the <br />
                 <span className="text-transparent bg-clip-text bg-linear-to-r from-red-600 to-red-400">
                   Future of Steel.
                 </span>
               </h2>
               
-              <p className="text-lg text-slate-600 leading-relaxed max-w-xl">
+              <p className="text-sm md:text-lg text-slate-600 leading-relaxed max-w-xl">
                 With over 20 years of expertise, we don't just fabricate steel; we engineer solutions that power industries worldwide. Precision is our standard.
               </p>
             </div>
@@ -89,8 +89,8 @@ export function Features() {
               <div className="space-y-10">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-1">Experience</p>
-                    <div className="text-5xl font-black text-slate-900">11+ <span className="text-red-600">Yrs</span></div>
+                    <p className="text-[10px] md:text-sm font-bold text-slate-400 uppercase tracking-widest mb-1">Experience</p>
+                    <div className="text-2xl md:text-5xl font-black text-slate-900">11+ <span className="text-red-600">Yrs</span></div>
                   </div>
                   <div className="w-16 h-16 bg-red-50 rounded-2xl flex items-center justify-center text-red-600">
                     <ArrowRight size={32} className="-rotate-45" />
@@ -101,17 +101,17 @@ export function Features() {
 
                 <div className="grid grid-cols-2 gap-8">
                   <div>
-                    <p className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-1">Projects</p>
-                    <div className="text-3xl font-bold text-slate-900">500+</div>
+                    <p className="text-[10px] md:text-sm font-bold text-slate-400 uppercase tracking-widest mb-1">Projects</p>
+                    <div className="text-xl md:text-3xl font-bold text-slate-900">500+</div>
                   </div>
                   <div>
                     <p className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-1">Retention</p>
-                    <div className="text-3xl font-bold text-slate-900">99%</div>
+                    <div className="text-xl md:text-3xl font-bold text-slate-900">99%</div>
                   </div>
                 </div>
 
-                <div className="p-6 rounded-2xl bg-linear-to-br from-slate-900 to-slate-800 text-white shadow-xl">
-                  <p className="text-sm leading-relaxed opacity-90">
+                <div className="p-2 md:p-6 rounded-2xl bg-linear-to-br from-slate-900 to-slate-800 text-white shadow-xl">
+                  <p className="text-[10px] md:text-sm leading-relaxed opacity-90">
                     <span className="font-bold text-red-400">Compliance First:</span> Our facilities are fully equipped to handle ISO 9001 and OSHA-regulated industrial projects.
                   </p>
                 </div>

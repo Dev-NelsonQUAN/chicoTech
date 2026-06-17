@@ -11,11 +11,11 @@ import Image from "next/image";
 
 export function Hero() {
   const openWhatsApp = () => {
-    window.open("https://wa.me/+2349022072067", "_blank");
+    window.open("https://wa.me/+2347065001134", "_blank");
   };
 
   const openEmail = () => {
-    window.location.href = "mailto:info@chicotechnical.com";
+    window.location.href = "chicotechnicalworks@yahoo.com";
   };
 
   return (
@@ -32,9 +32,9 @@ export function Hero() {
         ></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 lg:px-8 py-10 md:py-20 grid lg:grid-cols-2 gap-12 items-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-10 md:py-20 grid lg:grid-cols-2 gap-12 items-center">
         <div className="space-y-8">
-          <div className="space-y-6 flex justify-center flex-col items-center lg:items-start">   
+          <div className="space-y-6 flex justify-center flex-col items-center lg:items-start">
             <div className="inline-block">
               <span className="px-2 md:px-4 py-1 md:py-2 bg-white border border-slate-200 text-slate-600 rounded-full text-[8px] md:text-xs font-bold uppercase tracking-widest shadow-sm backdrop-blur-md">
                 ✨ Industrial Excellence
@@ -76,19 +76,25 @@ export function Hero() {
 
           <div className="flex flex-wrap gap-10 pt-6 border-t border-slate-200/60 flex-col sm:flex-row max-sm:items-center justify-center lg:justify-start">
             <div>
-              <div className="text-2xl md:text-3xl font-black text-slate-900">500+</div>
+              <div className="text-2xl md:text-3xl font-black text-slate-900">
+                500+
+              </div>
               <div className="text-[10px] md:text-xs font-bold text-slate-400 uppercase tracking-tighter">
                 Projects Done
               </div>
             </div>
             <div>
-              <div className="text-2xl md:text-3xl font-black text-slate-900">11+</div>
+              <div className="text-2xl md:text-3xl font-black text-slate-900">
+                11+
+              </div>
               <div className="text-[10px] md:text-xs font-bold text-slate-400 uppercase tracking-tighter">
                 Years Exp
               </div>
             </div>
             <div>
-              <div className="text-2xl md:text-3xl font-black text-slate-900">99%</div>
+              <div className="text-2xl md:text-3xl font-black text-slate-900">
+                99%
+              </div>
               <div className="text-[10px] md:text-xs font-bold text-slate-400 uppercase tracking-tighter">
                 Satisfaction
               </div>
@@ -97,7 +103,7 @@ export function Hero() {
         </div>
 
         <div className="relative flex items-center justify-center">
-          <div className="relative w-full aspect-square max-w-390 lg:max-w-112.5 flex items-center justify-center rounded-[2.5rem] bg-white/40 backdrop-blur-2xl border border-white shadow-[0_32px_64px_-12px_rgba(0,0,0,0.08)] group overflow-hidden">
+          <div className="relative w-full aspect-square max-w-390 lg:max-w-112.5 flex items-center justify-center rounded-xl md:rounded-[2.5rem] bg-white/40 backdrop-blur-2xl border border-white shadow-[0_32px_64px_-12px_rgba(0,0,0,0.08)] group overflow-hidden">
             <div className="absolute inset-0 z-0 transition-transform duration-500 group-hover:scale-105">
               <Image
                 src="/chicoHeroP2.webp"
@@ -125,9 +131,9 @@ export function Hero() {
 
       <button
         onClick={openWhatsApp}
-        className="fixed bottom-8 right-8 z-50 p-4 bg-[#25D366] text-white rounded-full shadow-2xl hover:scale-110 transition-transform active:scale-95"
+        className="fixed bottom-8 right-8 z-50 p-2 md:p-4 bg-[#25D366] text-white rounded-full shadow-2xl hover:scale-110 transition-transform active:scale-95 cursor-pointer"
       >
-        <MessageCircle size={28} />
+        <MessageCircle className="group-hover:scale-110 transition-transform w-4 md:w-8 h-4 md:h-8" />
       </button>
     </section>
   );

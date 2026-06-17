@@ -23,9 +23,9 @@ export function Footer() {
 
   return (
     <footer className="relative bg-[#F8FAFC] text-slate-900 border-t border-slate-200">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-14 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
-          <div className="space-y-8">
+          <div className="space-y-6 md:space-y-8">
             <Link href="/" className="flex items-center gap-3">
               <img
                 src="/logo.png"
@@ -149,12 +149,12 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-20 pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">
+        <div className="mt-20 pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-6 max-sm:text-center">
+          <p className="text-[8px] md:text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">
             &copy; {currentYear} CHICO TECHNICAL WORKS LIMITED. ENGINEERED FOR
             PRECISION.
           </p>
-          <div className="flex gap-8 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">
+          <div className="flex gap-8 text-[8px] md:text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">
             <Link href="#" className="hover:text-slate-900 transition-colors">
               Privacy Policy
             </Link>
