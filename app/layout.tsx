@@ -13,14 +13,16 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
 })
 
-// 1. ADVANCED SEO METADATA
 export const metadata: Metadata = {
-  metadataBase: new URL('https://chicotechnical.com'), // Replace with your actual domain
+  metadataBase: new URL('https://chicotechnical.com'), 
   title: {
     default: 'CHICO Technical Works | Steel Fabrication & Industrial Engineering Nigeria',
     template: '%s | CHICO Technical Works'
   },
   description: 'Specialized industrial engineering in Lagos, Nigeria. Experts in steel fabrication, conveyor systems, elevator installation, and HSSE compliant technical services.',
+  verification: {
+    google: "5102b8fe3b44f9b4", 
+  },
   keywords: [
     'Steel Fabrication Lagos', 
     'Industrial Engineering Nigeria', 
@@ -30,15 +32,16 @@ export const metadata: Metadata = {
     'Chico Technical Works',
     "Chico Tech",
   ],
+
   authors: [{ name: 'CHICO Technical Works' }],
   icons: {
-    icon: '/favicon.ico', 
-    apple: '/apple-touch-icon.png',
+    icon: '/logo.png', 
+    apple: '/logo.png',
   },
   openGraph: {
     title: 'CHICO Technical Works | Precision Steel Solutions',
     description: 'Expert industrial engineering and steel fabrication services since 2004.',
-    url: 'https://chicotechnical.com',
+    url: 'https://chico-tech.vercel.app',
     siteName: 'CHICO Technical Works',
     images: [
       {
@@ -68,17 +71,17 @@ function JsonLd() {
           '@context': 'https://schema.org',
           '@type': 'LocalBusiness',
           name: 'CHICO Technical Works',
-          image: 'https://chicotechnical.com/opengraph-image.png',
+          image: 'https://chico-tech.vercel.app/opengraph-image.png',
           description: 'Industrial engineering and steel fabrication experts in Lagos, Nigeria.',
           address: {
             '@type': 'PostalAddress',
-            streetAddress: '39A, Emordi Street, Olodi – Apapa',
+            streetAddress: '39A, Emordi Street, Olodi - Apapa',
             addressLocality: 'Lagos',
             addressRegion: 'Lagos State',
             addressCountry: 'NG',
           },
           telephone: '+2347065001134',
-          url: 'https://chicotechnical.com',
+          url: 'https://chico-tech.vercel.app',
         }),
       }}
     />
