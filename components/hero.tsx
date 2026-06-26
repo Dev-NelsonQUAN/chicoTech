@@ -106,7 +106,7 @@ export function Hero() {
           <div className="relative w-full aspect-square max-w-390 lg:max-w-112.5 flex items-center justify-center rounded-xl md:rounded-[2.5rem] bg-white/40 backdrop-blur-2xl border border-white shadow-[0_32px_64px_-12px_rgba(0,0,0,0.08)] group overflow-hidden">
             <div className="absolute inset-0 z-0 transition-transform duration-500 group-hover:scale-105">
               <Image
-                src="/chicoHeroP2.webp"
+                src="/chicoHero.jpeg"
                 alt="CHICO Technical Works"
                 fill
                 className="object-cover"
