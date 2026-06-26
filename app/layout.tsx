@@ -20,6 +20,11 @@ export const metadata: Metadata = {
     template: '%s | CHICO Technical Works'
   },
   description: 'Specialized industrial engineering in Lagos, Nigeria. Experts in steel fabrication, conveyor systems, elevator installation, and HSSE compliant technical services.',
+  
+  alternates: {
+    canonical: '/',
+  },
+
   verification: {
     google: "5102b8fe3b44f9b4", 
   },
