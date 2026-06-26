@@ -19,8 +19,8 @@ export function CookieConsent() {
   if (!isVisible) return null
 
   return (
-    <div className="fixed bottom-6 left-6 right-6 md:left-auto md:w-96 z-[200] animate-in fade-in slide-in-from-bottom-10 duration-700">
-      <div className="p-6 bg-white/80 backdrop-blur-2xl border border-white rounded-[2rem] shadow-2xl flex flex-col gap-4">
+    <div className="fixed bottom-6 left-6 right-6 md:left-auto md:w-96 z-200 animate-in fade-in slide-in-from-bottom-10 duration-700">
+      <div className="p-6 bg-white/80 backdrop-blur-2xl border border-white rounded-4xl shadow-2xl flex flex-col gap-4">
         <div className="flex items-start justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-slate-900 rounded-2xl flex items-center justify-center text-white">
